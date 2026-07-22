@@ -112,6 +112,7 @@ export default function Home() {
             alt="Desktop view of the Whale Intelligence League"
             width={1440}
             height={1100}
+            loading="eager"
             sizes="(max-width: 900px) 100vw, 58vw"
           />
         </div>
@@ -124,6 +125,7 @@ export default function Home() {
             alt="A completed paper workout and its receipt on mobile"
             width={390}
             height={3700}
+            loading="eager"
             sizes="(max-width: 760px) 54vw, 300px"
           />
         </div>
